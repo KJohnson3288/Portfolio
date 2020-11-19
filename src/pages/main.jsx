@@ -19,10 +19,11 @@ function Main() {
           <img className="responsive-img" src={Hero} />
         </div>
         <div className="about">
-            <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum orci sit amet orci laoreet feugiat. 
-              Integer vehicula turpis metus, eget bibendum quam tristique et. Quisque bibendum nibh metus, elementum luctus magna fringilla posuere. 
-              Maecenas sit amet dapibus est. Integer volutpat consectetur pellentesque. Vivamus scelerisque bibendum ipsum, quis volutpat risus volutpat a. 
-              Nunc consequat hendrerit iaculis. Donec et maximus ipsum. Nunc tempus ullamcorper sapien, at malesuada dui sagittis non.</p>
+            <p className="text-white"> Hey Rookie Programmer here, Just finished going through a coding bootcamp and am now looking 
+            for an opportunity to get exp in the field. My main focus is getting into any job or opportunity to get real world experience.
+            I am still searching when it comes to prefered languages to work with, my skills even out to front-end and back-end. Currently 
+            studying and working on my own and doing my own projects. I am open to working on and learning anything. Just hit me up,
+            I will be updating my site regualarly if you want to check out what I've been doing.</p>
         </div>
       </div>
       <Footer/>
