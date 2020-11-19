@@ -19,6 +19,7 @@ h2 {
     justify-content: center;
     background-color: black;
     box-shadow: 10px 10px 5px grey;
+    opacity: 75%;
 }
 
 footer {
@@ -31,7 +32,7 @@ footer {
     height: 5%;
     width: 100%;
     box-shadow: -3px -3px 10px grey;
-    background-color: black;
+    background-color: rgb(54, 54, 54);;
 }
 
 .footer-container {
@@ -46,7 +47,6 @@ footer {
 .icon-img {
     height: 32px;
     width: 32px;
-    
 }
 
 .link-1 {
@@ -61,6 +61,7 @@ footer {
 
 .responsive-img {
     width: 100%;
+    
 }
 
 .about {
@@ -90,7 +91,7 @@ footer {
 }
 
 .contact-div {
-    background-color: black;
+    background-color: rgb(54, 54, 54);;
     box-shadow: 5px 5px 10px grey;
 }
 
