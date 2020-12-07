@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d43fde2a.chunk.css",
-    "main.js": "/Portfolio/static/js/main.059c17c9.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.059c17c9.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.f7f36363.chunk.css",
+    "main.js": "/Portfolio/static/js/main.eccfb955.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.eccfb955.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.f2f14b25.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f2f14b25.js.map",
     "static/css/2.1a02f21c.chunk.css": "/Portfolio/static/css/2.1a02f21c.chunk.css",
@@ -10,15 +10,24 @@
     "static/js/2.155a5a8e.chunk.js.map": "/Portfolio/static/js/2.155a5a8e.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/Portfolio/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.d43fde2a.chunk.css.map": "/Portfolio/static/css/main.d43fde2a.chunk.css.map",
+    "static/css/main.f7f36363.chunk.css.map": "/Portfolio/static/css/main.f7f36363.chunk.css.map",
     "static/js/2.155a5a8e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.155a5a8e.chunk.js.LICENSE.txt",
-    "static/media/CA-1-Close.46a81f52.jpg": "/Portfolio/static/media/CA-1-Close.46a81f52.jpg"
+    "static/media/Akuma-2.25f9e700.jpg": "/Portfolio/static/media/Akuma-2.25f9e700.jpg",
+    "static/media/Akuma.70068ffb.jpg": "/Portfolio/static/media/Akuma.70068ffb.jpg",
+    "static/media/Kage-2.420f3b15.jpg": "/Portfolio/static/media/Kage-2.420f3b15.jpg",
+    "static/media/Kage.46a81f52.jpg": "/Portfolio/static/media/Kage.46a81f52.jpg",
+    "static/media/PokeMart.04bb0157.png": "/Portfolio/static/media/PokeMart.04bb0157.png",
+    "static/media/Ryu-2.57110d13.jpg": "/Portfolio/static/media/Ryu-2.57110d13.jpg",
+    "static/media/Ryu.31e1b9b4.jpg": "/Portfolio/static/media/Ryu.31e1b9b4.jpg",
+    "static/media/Sakura.4efc54eb.jpg": "/Portfolio/static/media/Sakura.4efc54eb.jpg",
+    "static/media/airHoliday.18310411.png": "/Portfolio/static/media/airHoliday.18310411.png",
+    "static/media/helloWorld.d5e35766.png": "/Portfolio/static/media/helloWorld.d5e35766.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f2f14b25.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.155a5a8e.chunk.js",
-    "static/css/main.d43fde2a.chunk.css",
-    "static/js/main.059c17c9.chunk.js"
+    "static/css/main.f7f36363.chunk.css",
+    "static/js/main.eccfb955.chunk.js"
   ]
 }
