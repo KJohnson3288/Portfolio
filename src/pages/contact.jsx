@@ -29,7 +29,7 @@ function Contact() {
           <div className="row">
             <div className="col-md-12 mb-5">
               <div className="section-heading text-center">
-                <h2><u><strong>Contact Me</strong></u></h2>
+                <h1 className="display-4"><u><strong>Contact Me</strong></u></h1>
               </div>
             </div>
 

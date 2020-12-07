@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import AirHoliday from "../images/airHoliday.png";
-import HelloWorld from "../images/helloWorld.png"
+import HelloWorld from "../images/helloWorld.png";
+import Pokemart from "../images/PokeMart.png";
 
 function Projects() {
   return (
@@ -15,7 +16,7 @@ function Projects() {
 
       <div className="container">
         <div className="portfolio-header">
-          <h2>My Portfolio</h2>
+          <h1 className="project-title display-4 font-weight-bold "><u>My Portfolio</u></h1>
         </div>
         <div className="projects-container">
           <div className="card mb-3">
@@ -42,13 +43,13 @@ function Projects() {
           </div>
 
           <div className="card mb-3">
-            <img src="https://via.placeholder.com/500x250" className="card-img-top" alt="..." />
+            <img src={Pokemart} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">PokeMart App</h5>
               <p className="card-text">A Pokemon themed website using items from the Pokemon universe.  A quick project 
               using React to get some practice in.
               </p>
-              <p className="card-text"><small className="text-muted">Last updated 12/3/20</small></p>
+              <p className="card-text"><small className="text-muted">Last updated 12/3/20 currently in progress</small></p>
             </div>
           </div>
 
