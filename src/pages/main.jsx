@@ -79,7 +79,7 @@ function Main() {
             <div className="date-content">
               <div className="date-outer">
                 <span className="date">
-                  <span className="month"> Currently <br/>In progress...</span>
+                  <span className="month"> Comeplete :)</span>
                 </span>
               </div>
             </div>

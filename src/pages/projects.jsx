@@ -1,7 +1,7 @@
 import React from "react"
 import "../App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import AirHoliday from "../images/airHoliday.png";
@@ -22,7 +22,7 @@ function Projects() {
           <div className="card mb-3">
             <img src={AirHoliday} className="card-img-top hello-img" alt="..." />
             <div className="card-body">
-              <Link to="https://github.com/KJohnson3288/ProjectOne" ><h5 className="card-title">AirHoliday</h5></Link>
+              <a href="https://github.com/KJohnson3288/ProjectOne" ><h5 className="card-title">AirHoliday</h5></a>
               <p className="card-text">Javascript built application that shows all future holiday 
                             dates that allows the user to select locations and see all of the available flights 
                             for those dates.</p>
@@ -33,7 +33,7 @@ function Projects() {
           <div className="card mb-3">
             <img src={HelloWorld} className="card-img-top" alt="..." />
             <div className="card-body">
-              <Link to="https://github.com/katlinking29/project2"><h5 className="card-title">Hello World</h5></Link>
+              <a href="https://github.com/katalinking29/project2"><h5 className="card-title">Hello World</h5></a>
               <p className="card-text">Hello World is a social meetup application 
                             targeted at web developers. Our app allows the user to create a profile 
                             and gives them a dashboard where they can find local networking events 
@@ -45,11 +45,15 @@ function Projects() {
           <div className="card mb-3">
             <img src={Pokemart} className="card-img-top" alt="..." />
             <div className="card-body">
-              <h5 className="card-title">PokeMart App</h5>
+              <a href="https://github.com/KJohnson3288/PokeMart/tree/master"><h5 className="card-title">PokeMart App</h5></a>
               <p className="card-text">A Pokemon themed website using items from the Pokemon universe.  A quick project 
-              using React to get some practice in.
+              using React to get some practice in. it is complete as of right now. I know theres more I can do, but they would kind blend
+              into what my other projects will use so  i decided to end it here. If you want to test it out use this a here:
+              <br/>
+              <br/>
+              <a href="https://kjohnson3288.github.io/PokeMart/">https://kjohnson3288.github.io/PokeMart/</a>
               </p>
-              <p className="card-text"><small className="text-muted">Last updated 12/3/20 currently in progress</small></p>
+              <p className="card-text"><small className="text-muted">Last updated 12/8/20 </small></p>
             </div>
           </div>
 
