@@ -35,5 +35,3 @@ Kyle Johnson
 If you want to contact me:
 
 Github:(https://github.com/KJohnson3288)
-
-Email:(https://github.com/KJohnson3288)
