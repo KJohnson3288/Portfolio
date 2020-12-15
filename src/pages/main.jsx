@@ -57,11 +57,13 @@ function Main() {
           </div>
         </div>
         <div className="about">
-          <p className="text-white"> Hey Rookie Programmer here, Just finished going through a coding bootcamp and am now looking
-          for an opportunity to get exp in the field. My main focus is getting into any job or opportunity to get real world experience.
-          I am still searching when it comes to prefered languages to work with, my skills even out to front-end and back-end. Currently
-          studying and working on my own and doing my own projects. I am open to working on and learning anything. Just hit me up on social 
-          media or through my contact page, I will be updating my site regualarly if you want to check out what I've been doing.</p>
+          <p className="text-white"> Front-End Web Developer leveraging my background in Culinary Arts and 
+          work experience in the Medical Industry. Exposure to build more intuitive user experiences on the web. 
+          Recently earned a certificate in Full Stack Development  and developed skills in JavaScript, CSS, React.js, 
+          and responsive web design. Known as an innovative problem-solver passionate about developing apps, with a focus 
+          on mobile-first design and development. Aim for each project is to best engage the audience for an impactful 
+          user-experience.  Excited to leverage my skills in the future as part of a fast-paced, quality-driven team in order 
+          to build better experiences on the web.</p>
         </div>
       </div>
 
