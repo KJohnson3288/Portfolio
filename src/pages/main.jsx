@@ -1,13 +1,8 @@
 import React from "react"
 import "../App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Kage from "../images/Kage.jpg";
-import Akuma from "../images/Akuma.jpg";
-import Akuma2 from "../images/Akuma-2.jpg";
-import Kage2 from "../images/Kage-2.jpg";
-import Ryu from "../images/Ryu.jpg";
-import Ryu2 from "../images/Ryu-2.jpg";
-import Sakura from "../images/Sakura.jpg";
+import MyPicOne from "../images/Me-1.png";
+import MyPicTwo from "../images/Me-2.png";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
@@ -24,26 +19,11 @@ function Main() {
         <div className="hero">
           <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
             <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img src={Kage} className="d-block w-100" alt="StreetFighter 5 Character" />
+              <div className="carousel-item">
+                <img src={MyPicOne} className="d-block w-100" alt="StreetFighter 5 Character" />
               </div>
               <div className="carousel-item">
-                <img src={Kage2} className="d-block w-100" alt="StreetFighter 5 Character" />
-              </div>
-              <div className="carousel-item">
-                <img src={Ryu} className="d-block w-100" alt="StreetFighter 5 Character" />
-              </div>
-              <div className="carousel-item">
-                <img src={Ryu2} className="d-block w-100" alt="StreetFighter 5 Character" />
-              </div>
-              <div className="carousel-item">
-                <img src={Akuma} className="d-block w-100" alt="StreetFighter 5 Character" />
-              </div>
-              <div className="carousel-item">
-                <img src={Akuma2} className="d-block w-100" alt="StreetFighter 5 Character" />
-              </div>
-              <div className="carousel-item">
-                <img src={Sakura} className="d-block w-100" alt="StreetFighter 5 Character" />
+                <img src={MyPicTwo} className="d-block w-100" alt="StreetFighter 5 Character" />
               </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
