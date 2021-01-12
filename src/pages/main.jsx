@@ -2,7 +2,6 @@ import React from "react"
 import "../App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MyPicOne from "../images/Me-1.png";
-import MyPicTwo from "../images/Me-2.png";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
@@ -17,24 +16,7 @@ function Main() {
         </div>
 
         <div className="hero">
-          <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item">
-                <img src={MyPicOne} className="d-block w-100" alt="StreetFighter 5 Character" />
-              </div>
-              <div className="carousel-item">
-                <img src={MyPicTwo} className="d-block w-100" alt="StreetFighter 5 Character" />
-              </div>
-            </div>
-            <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span className="sr-only">Previous</span>
-            </a>
-            <a className="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
-              <span className="sr-only">Next</span>
-            </a>
-          </div>
+          <img src={MyPicOne} class="img-fluid" alt="Pic of me"/>
         </div>
         <div className="about">
           <p className="text-white"> Front-End Web Developer leveraging my background in Culinary Arts and 
@@ -55,65 +37,67 @@ function Main() {
 
         <div className="main-timeline">
 
-          {/* <!-- start experience section--> */}
+          {/* <!-- start Project section--> */}
           <div className="timeline">
             <div className="icon"></div>
             <div className="date-content">
               <div className="date-outer">
                 <span className="date">
-                  <span className="month"> Comeplete :)</span>
+                  <span className="month"> Project</span>
                 </span>
               </div>
             </div>
             <div className="timeline-content">
-              <h5 className="title text-success">React project #1</h5>
+              <h5 className="title text-success"> NSI Project </h5>
               <p className="description text-white">
-                This project is a simple web app. Just to get some Practice with <u className="text-success">React.js</u>.
+                Practice site for investing using <u className="text-success">React.js</u>. Currently Planning out the site design
+                and layout will update once I move on to the next phase.
               </p>
             </div>
           </div>
-          {/* <!-- end experience section--> */}
+          {/* <!-- end Project section--> */}
 
-          {/* <!-- start experience section--> */}
+          {/* <!-- start Language section--> */}
           <div className="timeline">
             <div className="icon"></div>
             <div className="date-content">
               <div className="date-outer">
                 <span className="date">
-                  <span className="month"> Up Next ...</span>
+                  <span className="month"> Language </span>
                 </span>
               </div>
             </div>
             <div className="timeline-content">
-              <h5 className="title text-primary">React project #2</h5>
+              <h5 className="title text-primary">Current Language I'm Learning</h5>
               <p className="description text-white">
-                This will be another project using react. The focus for this one will be using <u className="text-primary">Third Party API's</u>.
+                Right now I'm focusing on <u className="text-primary"> Python</u>. In the stages of learning the basics
+                will be posting mini projects once i'm comfortable with the language.
               </p>
             </div>
           </div>
-          {/* <!-- end experience section--> */}
+          {/* <!-- end Language section--> */}
 
-          {/* <!-- start experience section--> */}
+          {/* <!-- start section--> */}
           <div className="timeline">
             <div className="icon"></div>
             <div className="date-content">
               <div className="date-outer">
                 <span className="date">
-                  <span className="month"> Coming <br/> Soon ...</span>
+                  <span className="month"> Job Prep</span>
                 </span>
               </div>
             </div>
             <div className="timeline-content">
-              <h5 className="title text-danger">React project #3</h5>
+              <h5 className="title text-danger">JIRA - SCRUM / Kanban</h5>
               <p className="description text-white">
-                This will be my third personal project with react before moving on to something else. In this one 
-                I want to work with <u className="text-danger">Servers</u> and <u className="text-danger">Passport</u>.  Most likely will use <u className="text-danger">MongoDB</u> for the database in this one. 
+                Recently researching <u className="text-danger">AGILE</u> development practices with <u className="text-danger">JIRA</u>.  
+                Getting an understanding of both <u className="text-danger"> SCRUM </u> and <u className="text-danger"> Kanban </u> practices. 
               </p>
             </div>
           </div>
-          {/* <!-- end experience section--> */}
+          {/* <!-- end section--> */}
 
-          {/* <!-- start experience section--> */}
+          {/* <!-- start section--> */}
           <div className="timeline">
             <div className="icon"></div>
             <div className="date-content">
@@ -126,22 +110,19 @@ function Main() {
             <div className="timeline-content">
               <h5 className="title text-warning">Plans For The Future</h5>
               <p className="description text-white">
-                This could definitly change, but as of right now here is a list of things I plan
+                Here is a list of things I plan
                 on looking into:
                 <ul>
-                  <li className="future-listItems text-sm-left text-warning">Algorithm practice (curently Trying to work this into my daily schedule)</li>
-                  <li className="future-listItems text-sm-left text-warning">PHP</li>
-                  <li className="future-listItems text-sm-left text-warning">Python</li>
-                  <li className="future-listItems text-sm-left text-warning">Typescript</li>
                   <li className="future-listItems text-sm-left text-warning">Java</li>
                   <li className="future-listItems text-sm-left text-warning">Angular</li>
-                  <li className="future-listItems text-sm-left text-warning">Practice with some js packages (For example: Three.js, Anime.js, Pixi.js)</li>
+                  <li className="future-listItems text-sm-left text-warning">Oracle</li>
                 </ul>
-                Not 100% exactly how i will approach these yet but will keep this updated as i move along
+                Still in the process of fine tuning my focus.  Really trying to get an understanding of where I want
+                to be and what exactly I want to do. This is the path I'm gonna stick with for now. 
               </p>
             </div>
           </div>
-          {/* <!-- end experience section--> */}
+          {/* <!-- end section--> */}
 
         </div>
       </div>
