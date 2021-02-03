@@ -7,6 +7,8 @@ import Footer from "../components/footer";
 import AirHoliday from "../images/airHoliday.png";
 import HelloWorld from "../images/helloWorld.png";
 import Pokemart from "../images/PokeMart.png";
+import TaskTracker from "../images/TaskTracker.png";
+
 
 function Projects() {
   return (
@@ -54,6 +56,19 @@ function Projects() {
               <a href="https://kjohnson3288.github.io/PokeMart/">https://kjohnson3288.github.io/PokeMart/</a>
               </p>
               <p className="card-text"><small className="text-muted">Last updated 12/8/20 </small></p>
+            </div>
+          </div>
+
+          <div className="card mb-3">
+            <img src={TaskTracker} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <a href="https://github.com/KJohnson3288/React-Task-Tracker"><h5 className="card-title">Task Tracker</h5></a>
+              <p className="card-text">A Task Track created using React/Express. Allowing users to create and remove task that was posted 
+              to the server.
+              <br/>
+              <br/>
+              </p>
+              <p className="card-text"><small className="text-muted">Last updated 2/5/2021 </small></p>
             </div>
           </div>
 
